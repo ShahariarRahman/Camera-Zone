@@ -1,0 +1,37 @@
+.cart-container{
+    border: 1px solid rgb(248, 68, 55);
+    border-top-right-radius:35px;
+    padding: 1rem;
+    text-align: center;
+}
+.cart-items{
+    position: sticky;
+    top:0;
+}
+.choose-item-btn h4{
+    margin: 12px;
+}
+.choose-item-btn button{
+    background-color:rgb(255, 225, 221);
+    border:1px solid rgb(248, 68, 55);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.choose-item-btn button:hover{
+    background-color:rgb(245, 131, 122);
+    color: white;
+    font-size: 16px;
+}
+.choose-item-btn{
+    margin-top: 35px;
+}
+.selection-area{
+    color:rgb(248, 68, 55); 
+    font-size: 1.7rem;
+    margin-bottom: 45px;
+}
+.selection-massage{
+    text-align: left;
+    font-size: 1.1rem;
+}

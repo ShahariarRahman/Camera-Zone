@@ -1,0 +1,28 @@
+.selected-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.selected-items-container div,
+.selected-items-container button,
+.selected-items-container h3{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.selected-items-container button{
+    border: none;
+    background-color: white;
+    color: grey;
+}
+.selected-items-container button:hover{
+    color: black;
+}
+.selected-images{
+    width: 50px;
+}
+.selected-trash{
+    width: 23px;
+    height: 23px;
+}

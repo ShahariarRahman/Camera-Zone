@@ -1,0 +1,9 @@
+.question-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 30px 15px;
+    max-width: 1700px;
+}
+.question-container li{
+    margin: 13px 0;
+}
