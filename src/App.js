@@ -13,7 +13,6 @@ function App() {
     setProduct(cameras);
   }, [products]);
 
-
   const getCart = (product) => {
     if (cart.length < 4) {
       const productDuplicate = cart.find(singleCart => singleCart.id === product.id);
