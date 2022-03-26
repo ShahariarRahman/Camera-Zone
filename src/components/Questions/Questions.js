@@ -4,18 +4,7 @@ import './Questions.css';
 const Questions = () => {
     return (
         <div className='question-container'>
-            <div>
-                <h3>Q1.How React Works?</h3>
-                <ol>
-                    <li>React is component-based JavaScript's library.</li>
-                    <li>React's component used multiple times to avoid code duplication</li>
-                    <li>React look like Html structure but actually those Html look like syntax are called JavaScript XML/JSX.</li>
-                    <li>Those Html structure are compiled by Babel transpiler.</li>
-                    <li>Babel.js work using React.CreateElement method.</li>
-                    <li>React.createElement render JavaScript code using Babel.js</li>
-                    <li>React.createElement's parameters are element name,properties,child element.</li>
-                </ol>
-            </div>
+
 
             <div>
                 <h3>Q2.props vs state?</h3>
