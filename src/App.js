@@ -37,7 +37,7 @@ function App() {
     <div className='App'>
       <Header totalCart={cart.length}></Header>
       <Shop products={products} getCart={getCart} cart={cart} removeCartList={removeCartList}></Shop>
-      <Questions></Questions>
+      {/* <Questions></Questions> */}
     </div>
   );
 }
