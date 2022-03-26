@@ -19,7 +19,9 @@ function App() {
       const productDuplicate = cart.find(singleCart => singleCart.id === product.id);
       if (!productDuplicate) {
         setCart([...cart, product]);
-        alert('The Product already Added in Card. Please Do not Add Same Product in Cart.')
+      }
+      else {
+        alert('The Product already Added in Card. Please Do not Add Same Product in Cart.');
       }
     }
     else {
