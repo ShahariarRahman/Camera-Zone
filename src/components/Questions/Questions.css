@@ -7,3 +7,9 @@
 .question-container li{
     margin: 13px 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .question-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+}

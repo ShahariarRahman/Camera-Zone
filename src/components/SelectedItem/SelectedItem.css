@@ -26,3 +26,11 @@
     width: 23px;
     height: 23px;
 }
+
+
+@media screen and (max-width: 688px) {
+  .selected-items-container{
+    display: flex;
+    flex-direction: column;
+}
+}

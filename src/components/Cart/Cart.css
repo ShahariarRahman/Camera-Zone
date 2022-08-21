@@ -1,5 +1,5 @@
 .cart-container{
-    border: 1px solid rgb(248, 68, 55);
+    border: 2px solid rgb(248, 68, 55);
     border-top-right-radius:35px;
     padding: 1rem;
     text-align: center;
@@ -30,8 +30,4 @@
     color:rgb(248, 68, 55); 
     font-size: 1.7rem;
     margin-bottom: 45px;
-}
-.selection-massage{
-    text-align: left;
-    font-size: 1.1rem;
 }

@@ -1,5 +1,5 @@
 .camera-card{
-    border: 1px solid rgb(248, 68, 55);
+    border: 2px solid rgb(248, 68, 55);
     border-radius: 35px;
     position: relative;
 }
@@ -13,7 +13,7 @@
  width: 70%;
 }
 .camera-model{
-    margin: 0;
+    margin: 0 15px;
     font-size: 1.1rem;
     color: rgb(248, 68, 55);
 }

@@ -13,18 +13,18 @@ import SonyAlphaA7III from '../images/Sony Alpha A7 III.jpg';
 
 const cameras =
     [
-        { id: 1, name: "Canon EOS 6D Mark II", price: 420, image: CanonEOS6DMarkII },
-        { id: 2, name: "Canon EOS 250D", price: 420, image: CanonEOS250D },
-        { id: 3, name: "Canon EOS 800D", price: 420, image: CanonEOS800D },
-        { id: 4, name: "Canon EOS M50", price: 420, image: CanonEOSM50 },
-        { id: 5, name: "Nikon D850", price: 420, image: NikonD3500 },
-        { id: 6, name: "Nikon D3500", price: 420, image: NikonD5600 },
-        { id: 7, name: "Nikon D5600", price: 420, image: NikonD7500 },
-        { id: 8, name: "Nikon D7500", price: 420, image: NikonD850 },
-        { id: 9, name: "Panasonic Lumix G7", price: 420, image: PanasonicLumixG7 },
-        { id: 10, name: "Panasonic Lumix G85", price: 420, image: PanasonicLumixG85 },
-        { id: 11, name: "Sony Alpha A7 III", price: 420, image: SonyAlphaA6400 },
-        { id: 12, name: "Sony Alpha A6400", price: 420, image: SonyAlphaA7III }
+        { id: 1, name: "Canon EOS 6D Mark II", price: 1399, image: CanonEOS6DMarkII },
+        { id: 2, name: "Canon EOS 250D", price: 699, image: CanonEOS250D },
+        { id: 3, name: "Canon EOS 800D", price: 795, image: CanonEOS800D },
+        { id: 4, name: "Canon EOS M50", price: 649, image: CanonEOSM50 },
+        { id: 5, name: "Nikon D850", price: 4893, image: NikonD3500 },
+        { id: 6, name: "Nikon D3500", price: 599, image: NikonD5600 },
+        { id: 7, name: "Nikon D5600", price: 799, image: NikonD7500 },
+        { id: 8, name: "Nikon D7500", price: 935, image: NikonD850 },
+        { id: 9, name: "Panasonic Lumix G7", price: 549, image: PanasonicLumixG7 },
+        { id: 10, name: "Panasonic Lumix G85", price: 899, image: PanasonicLumixG85 },
+        { id: 11, name: "Sony Alpha A7 III", price: 1799, image: SonyAlphaA6400 },
+        { id: 12, name: "Sony Alpha A6400", price: 1395, image: SonyAlphaA7III }
     ]
 
 export default cameras;
